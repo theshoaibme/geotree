@@ -35,13 +35,13 @@ importers:
         version: 19.2.3(@types/react@19.2.17)
       '@vitejs/plugin-react':
         specifier: ^6.0.3
-        version: 6.0.4(vite@8.1.5)
+        version: 6.0.4(vite@8.1.6)
       oxlint:
         specifier: ^1.71.0
         version: 1.75.0
       vite:
-        specifier: ^8.1.1
-        version: 8.1.5
+        specifier: ^8.1.6
+        version: 8.1.6
 
 packages:
 
@@ -479,8 +479,8 @@ packages:
   tslib@2.8.1:
     resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
 
-  vite@8.1.5:
-    resolution: {integrity: sha512-7ULLwsCdYx/nRyrpiEwvqb5TFHrMVZyBt+rg/OAXT7rgj/z+DtTDyKFeLAdDkubDVDKD8jOsndmy7m55XcfUsw==}
+  vite@8.1.6:
+    resolution: {integrity: sha512-aRAHIxx5SW5zc1sMqFwJU/t5qaFfXb5Hj0J7W0VXihu/X99+346tz6080tO1T1xVIJORX/b3zVTXGFqUXh35uw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -676,10 +676,10 @@ snapshots:
     dependencies:
       csstype: 3.2.3
 
-  '@vitejs/plugin-react@6.0.4(vite@8.1.5)':
+  '@vitejs/plugin-react@6.0.4(vite@8.1.6)':
     dependencies:
       '@rolldown/pluginutils': 1.0.1
-      vite: 8.1.5
+      vite: 8.1.6
 
   csstype@3.2.3: {}
 
@@ -826,7 +826,7 @@ snapshots:
   tslib@2.8.1:
     optional: true
 
-  vite@8.1.5:
+  vite@8.1.6:
     dependencies:
       lightningcss: 1.33.0
       picomatch: 4.0.5
